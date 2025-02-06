@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+      // Wap to print this series 7, 10, 8, 11, 9, 12, ... 
+    
+      let n = prompt("Enter the value of n:")
+
+      let first = 7;      // first  part (7,8,9,...)
+      let second = 10;    // second  part (10,11,12,...)   
+
+     for (let i = 0; i < n; i++)
+     {
+        if (i % 2 === 0) {
+            document.write(first + " ");
+            first += 1; // Increment the first number (7 -> 8, 8 -> 9, ...)
+        } else {
+            document.write(second + " ");
+            second += 1; // Increment the second number (10 -> 11, 11 -> 12, ...)
+        }
+     }
+    </script>
+    
+</body>
+</html>

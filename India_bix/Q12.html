@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+         // Wap to print series  14, 28, 20, 40, 32, 64, ...
+
+         let start = 14;
+         let n = prompt("Enter the value of n:") 
+
+         for (let i = 0; i < n; i++) 
+         {
+            document.write(start + " ");
+
+             // Alternate between multiplying by 2 and subtracting  by 8
+             if (i % 2 === 0)
+             {
+               start *= 2;  // Multiply by 2
+             } 
+             else 
+             {
+              start-= 8;  // Divide by 1.4
+             }
+
+         }
+    </script>
+</body>
+</html>

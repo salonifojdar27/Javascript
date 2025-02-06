@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        // Wap to print series  201, 202, 204, 207, ... 
+
+        let n = prompt("Enter the value of n:"); 
+        let start = 201;
+        let difference = 1;
+
+
+        for (let i = 0; i < n; i++) 
+        {
+              document.write(start + " ");
+              start += difference;  // Increase the current term by the current difference
+              difference++;         // Increase the difference by 1
+         }
+    </script>
+</body>
+</html>

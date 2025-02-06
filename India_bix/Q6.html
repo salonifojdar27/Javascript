@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        // Wap to print series  21, 9, 21, 11, 21, 13, 21, ...
+
+        let first = 21;      
+        let second = 9; 
+        let n = prompt("Enter the value of n:")
+
+         
+        for (let i = 0; i < n; i++)
+        {
+        if (i % 2 === 1)
+        {
+            document.write(second + " ");
+            second += 2; 
+            
+        } 
+        else
+        {
+            document.write(first + " ");
+        }
+       }
+    </script>
+</body>
+</html>
