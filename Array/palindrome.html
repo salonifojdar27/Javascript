@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        // wap to check name is palindrome or not.
+
+        let realname = "nayan"
+        let reverse_name = "";
+
+        for(let i=realname.length-1; i>=0; i--)     
+        {
+             reverse_name+=realname[i]; 
+        }
+
+        if(realname==reverse_name)
+        {
+             document.write("Name is palindrome!");
+        }
+        else
+        {
+            document.write("Name is not palindrome!"); 
+        }
+    </script>
+
+</body>
+</html>
