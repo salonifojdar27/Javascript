@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+
+        // wap to check given number is armstrong or not.
+
+        function armstrong(n) {
+
+            let result = 0;
+            let num = n;
+            let count = 0;
+
+            while (num > 0) {
+                num = Math.floor(num / 10);
+                count++;
+            }
+
+            num = n;
+
+            for (let i = 1; i <= count; i++) {
+
+                let last = num % 10;
+                let multi = 1;
+
+                for (let j = 1; j <= count; j++) {
+                    multi = multi * last;
+                }
+
+                result = result + multi;
+                num = Math.floor(num / 10);
+            }
+
+            document.write("<br>")
+
+            if (n == result) {
+                document.write("This is a armstrong number!");
+            }
+            else {
+                document.write("This is  not a armstrong number!");
+            }
+
+        }
+        armstrong(153);
+    </script>
+</body>
+
+</html>
