@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+
+        // wap to check the frequency of given name.
+
+        let count = 1;
+        let realname = "nayan"
+
+        for (let i = 0; i < realname.length; i++) {
+            count = 1;
+            for (let j = i + 1; j < realname.length; j++) {
+                if (realname[i] == realname[j]) {
+                    count++;
+                }
+            }
+
+            document.write(realname[i] + "-" + count + "<br>")
+
+        }
+
+    </script>
+</body>
+
+</html>
