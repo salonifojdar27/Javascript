@@ -1,0 +1,17 @@
+.container {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .field {
+    margin: 10px;
+}
+
+input {
+    height: 30px;
+}
+
+button {
+    height: 30px;
+}
