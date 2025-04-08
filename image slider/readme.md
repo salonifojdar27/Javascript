@@ -1,6 +1,7 @@
 A lightweight, responsive image slider/carousel for showcasing project screenshots, demos, or portfolio images directly in your GitHub README or Pages.
 
-Key Features
+Key Features :
+
 ✅ Responsive – Works on desktop, tablet & mobile
 
 ✅ Simple Setup – Easy HTML/CSS/JS integration
